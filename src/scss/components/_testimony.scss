@@ -1,0 +1,102 @@
+.slider{
+    margin: 0 auto;
+    width: 370px;
+    height: 330px;
+    position: relative;
+    overflow: hidden;
+
+    .wrapper {
+        transition: .5s all linear;
+        will-change: transform;
+    }
+   
+    .dots-container{
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        position: absolute;
+        width: 370px;
+        text-align: center;
+        left: 50%;
+        bottom: 9px;
+        transform: translateX(-50%);
+        z-index: 10;
+        list-style-type: none;
+  
+        li {
+            display: inline-block;
+            padding: 1px;
+    
+            &.active{
+                button {
+                    color: var(--color-pink);
+                }
+            }
+    
+            button {
+                color: black;
+                background-color: transparent;
+                border: none;
+        
+                &:hover{
+                    text-decoration: none;
+                    opacity: .7;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+  
+    .toggle-play{
+        background: transparent;
+        border: none;
+        height: auto;
+        position: absolute;
+        width: auto;
+        right: 5%;
+        bottom: 9px;
+        color: #3d3d3d;
+        z-index: 1000000;
+    
+        &:hover{
+            text-decoration: none;
+            opacity: .7;
+            cursor: pointer;
+        }
+    }
+  
+    .each-slide {
+        width: 375px;
+        height: 350px;
+        float: left;
+        padding: 0 2rem;
+        background-size: cover;
+        background-position: center center;
+        background-color: transparent;
+        font-family: var(--fontfamily-merriweather);
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #414141;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        img{
+            width: 40px;
+            height: 32px;
+        }
+        p{
+            font-family: var(--fontfamily-merriweather);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+    }
+}

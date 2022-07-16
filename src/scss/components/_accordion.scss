@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.divFaq{
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.titleFaq{
+  font-family: var(--fontfamily-sansPro);
+  font-weight: 600;
+  font-size: xx-large;
+  color: var(--color-purples);
+  text-align: center;
+}
+
+.accordion {
+  font-family: 'Inter, sans-serif';
+  background-color: var(--color-white);
+  cursor: pointer;
+  width: auto;
+  max-width: 600px;
+  margin: 0 auto;
+
+
+
+  .title {
+      border-bottom: 1px dashed rgba(65, 65, 65, 1) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+}
+.title h4 {
+  font-family: var(--fontfamily-sansPro);
+    font-style: normal;
+    font-weight: 700;
+    font-size:medium;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #414141;
+}
+
+.accordion p {
+  display: none;
+  margin-bottom: 0;
+  font-family: Inter, sans-serif;  
+  color: #9c9d9d;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.accordion.open p{
+  display: block;
+}
+
+.accordion.open .title .arrow-down{
+  transform: rotate(180deg);
+
+}

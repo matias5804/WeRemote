@@ -1,0 +1,102 @@
+.hero{
+    padding-top: 48px;
+    width: 100%;
+  
+    &__divImg{
+        background-image: url(../../assets/img/photo1.jpg);
+        height: 100%;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-size: cover;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h1{
+            font-family: 'Source Sans Pro';
+            font-weight: 700;
+            width: 18.8rem;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+        }
+
+        h2{
+            font-family: 'Source Sans Pro';
+            font-weight: 700;
+            margin-top: 2rem;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+            width: 18rem;
+        }
+
+        h3{
+            font-family: 'Source Code Pro';
+            font-weight: 400;
+            font-size:small;
+            color: #FFFFFF;
+            width:22.5rem;
+            line-height: 1rem;
+            padding-top: 1rem;
+        }
+
+        .spanPurple{
+            color:var(--color-pink)
+        }
+    }
+}
+
+.hero__divImgTwo{
+    background-image: url(../../assets/img/photo2.jpg);
+}
+.hero__divImgThree{
+    background-image: url(../../assets/img/photo3.png);
+}
+.hero__divImgFour{
+    background-image: url(../../assets/img/photo4.png);
+}
+.hero__divImgFive{
+    background-image: url(../../assets/img/photo5.png);
+}
+
+@media (min-width:425px) {
+
+} 
+@media (min-width:768px) {
+    
+    .hero{
+
+        &__divImg{
+            padding:4.5rem 6rem;
+
+            h3{
+                line-height: 18px;
+            }
+        }
+    }
+} 
+@media (min-width:1024px) {
+    .hero{
+        height: 600px;
+
+        &__divImg{
+            padding:5rem 7rem;
+            
+            h1{
+                width: 400px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 40px;
+                letter-spacing: -0.02em;
+            }
+
+            h3{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+} 
