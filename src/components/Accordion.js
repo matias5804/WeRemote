@@ -13,7 +13,7 @@ const Accordion = ({ titlee, content }) => {
       <div
         onClick={handleClick}
         className={`accordion
-        ${isActiveAccordion ? "open" : "" }`}>
+        ${isActiveAccordion ? "open" : " " }`}>
 
         <div className="title">
           <h4>{titlee}</h4>
@@ -23,6 +23,7 @@ const Accordion = ({ titlee, content }) => {
         </div>
 
         <p>{content}</p>
+
 
       </div>
     );

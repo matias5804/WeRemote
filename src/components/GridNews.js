@@ -1,40 +1,36 @@
 import React from 'react'
-import imageNews from "../assets/img/imgNews1.png"
+import imageNews1 from "../assets/img/imgNews1.png"
+import imageNews2 from "../assets/img/newsReloj.jpg"
+import imageNews3 from "../assets/img/mujerLeyendo.jpg"
+import imageNews4 from "../assets/img/newsNinia.jpg"
+import GridNoticias from './GridNoticias';
 
 const GridNews = () => {
   return (
     <div className='newsSmall'>     
-        <div className='newsSmall__div'>
-            <div className='newsSmall__div__divImg'>
-                <img src={imageNews} alt="news" className="newsSmall__div__divImg__img"/>
-            </div>
-            <h3 className="newsSmall__div__sub">Nutrición</h3>
-            <h1 className="newsSmall__div__titleNews">Colapso mental: cuando siento el peso del mundo sobre mí</h1>
-        </div>
+        <GridNoticias   
+            title="Nutricion"
+            subtitle="Colapso mental: cuando siento el peso del mundo sobre mí"
+            img={imageNews1}
+        />
 
-        <div className='newsSmall__div'>
-            <div className='newsSmall__div__divImg'>
-                <img src={imageNews} alt="news" className="newsSmall__div__divImg__img"/>
-            </div>
-            <h3 className="newsSmall__div__sub">Nutrición</h3>
-            <h1 className="newsSmall__div__titleNews">Colapso mental: cuando siento el peso del mundo sobre mí</h1>
-        </div>
+        <GridNoticias   
+            title="Curiosidades"
+            subtitle="Por qué tenemos la sensación de que el tiempo pasa cada vez más rápido"
+            img={imageNews2}
+        />
 
-        <div className='newsSmall__div'>
-            <div className='newsSmall__div__divImg'>
-                <img src={imageNews} alt="news" className="newsSmall__div__divImg__img"/>
-            </div>
-            <h3 className="newsSmall__div__sub">Nutrición</h3>
-            <h1 className="newsSmall__div__titleNews">Colapso mental: cuando siento el peso del mundo sobre mí</h1>
-        </div>
+        <GridNoticias   
+            title="Actualidad y Psicología"
+            subtitle="Por qué compartimos imformación falsa en las redes sociales"
+            img={imageNews3}
+        />
 
-        <div className='newsSmall__div'>
-            <div className='newsSmall__div__divImg'>
-                <img src={imageNews} alt="news" className="newsSmall__div__divImg__img"/>
-            </div>
-            <h3 className="newsSmall__div__sub">Nutrición</h3>
-            <h1 className="newsSmall__div__titleNews">Colapso mental: cuando siento el peso del mundo sobre mí</h1>
-        </div>        
+        <GridNoticias   
+            title="Familia"
+            subtitle="La madre intimidante: sobrevivir a la ausencia de ternura"
+            img={imageNews4}
+        />
     </div>
   );
 }

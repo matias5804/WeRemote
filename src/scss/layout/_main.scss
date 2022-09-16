@@ -1,25 +1,33 @@
 .hero{
-    padding-top: 48px;
+    margin-top: 48px;
     width: 100%;
-  
+    height: 300px;
+    
     &__divImg{
-        background-image: url(../../assets/img/photo1.jpg);
-        height: 100%;
-        background-position-x: right;
-        background-position-y: bottom;
-        background-size: cover;
-        padding: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        position: relative;
+
+        img{
+            position:absolute;
+            z-index:  -1;
+            height: 304px;
+            width: auto;
+            max-width: 100%;
+            left: 0;
+            object-position:cover;
+            overflow-x: hidden;
+            object-fit: cover;
+            opacity: 0.6;
+        }
 
         h1{
             font-family: 'Source Sans Pro';
             font-weight: 700;
-            width: 18.8rem;
+            width: 355px;
             line-height: 40px;
             letter-spacing: -0.02em;
-            color: #FFFFFF;
+            color: rgb(37, 37, 37);
         }
 
         h2{
@@ -28,15 +36,15 @@
             margin-top: 2rem;
             line-height: 32px;
             letter-spacing: -0.02em;
-            color: #FFFFFF;
-            width: 18rem;
+            color: rgb(37, 37, 37);
+            width: 355px;
         }
 
         h3{
             font-family: 'Source Code Pro';
             font-weight: 400;
             font-size:small;
-            color: #FFFFFF;
+            color: black;
             width:22.5rem;
             line-height: 1rem;
             padding-top: 1rem;
@@ -46,6 +54,16 @@
             color:var(--color-pink)
         }
     }
+}
+ol, ul {
+     padding-left:0;
+}
+
+.swiper{
+    height: 300px !important;
+}
+.divInfoHero{
+    padding: 1rem;
 }
 
 .hero__divImgTwo{
@@ -61,15 +79,34 @@
     background-image: url(../../assets/img/photo5.png);
 }
 
-@media (min-width:425px) {
+@media (min-width:550px) {
+    .hero{
+        height: 360px;
+        &__divImg{
+            img{
+                width: 100%;
+                height: 354px !important;
+            }
+
+            h3{
+
+            }
+        }
+
+
+    }
+    .swiper{
+        height: 354px !important;
+    }
 
 } 
+
 @media (min-width:768px) {
     
     .hero{
+      
 
         &__divImg{
-            padding:4.5rem 6rem;
 
             h3{
                 line-height: 18px;
@@ -79,11 +116,13 @@
 } 
 @media (min-width:1024px) {
     .hero{
-        height: 600px;
-
+        max-width: 1050px;
+        margin: 0 auto;
+        margin-top:50px;
+    
         &__divImg{
-            padding:5rem 7rem;
-            
+
+    
             h1{
                 width: 400px;
                 font-weight: 700;
@@ -96,6 +135,7 @@
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
+                width: 500px;
             }
         }
     }

@@ -1,14 +1,14 @@
 import React from 'react'
 import GridNews from '../GridNews'
 import GridNewsBig from '../GridNewsBig'
-import Hero from '../Hero'
+import HeroHome from '../HeroHome'
 import Testimony from '../Testimony'
 
 
 const Home = () => {
   return (
     <div Home>
-        <Hero/>
+        <HeroHome/>
         <GridNews/> 
         <GridNewsBig/> 
         <Testimony/>   

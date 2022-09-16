@@ -34,7 +34,7 @@ const NavBar = () => {
           <div className="nav__toggler__line3"></div>
         </div>
 
-        <Link to="/home">
+        <Link to="/">
           <img className="nav__imgLogo" src={logoBrand} alt="Logo Brand"/>       
         </Link>
 

@@ -59,7 +59,7 @@
     }
     &__div{
         max-width: 228px;
-        max-height:331px;
+        max-height:350px;
         text-align: center;
         border-radius: 5px;
         cursor: pointer;
@@ -68,9 +68,12 @@
         &__divImg{
             overflow: hidden;
             border-radius: 5px;
+            height: 200px;
             
             &__img{
                 object-fit: cover;
+                width: auto;
+                height: 100%;
             }
         }
 
@@ -84,6 +87,7 @@
             text-transform: uppercase;
             color:var(--color-pink);
             text-align: start;
+            margin: 10px 0 0;
         }
 
         &__titleNews{
