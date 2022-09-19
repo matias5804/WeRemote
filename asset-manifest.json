@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WeRemote/static/css/main.7e8aa6cc.css",
-    "main.js": "/WeRemote/static/js/main.2fb45638.js",
+    "main.js": "/WeRemote/static/js/main.0cf5c4e5.js",
     "static/media/photo3.png": "/WeRemote/static/media/photo3.5eece7adb2d89166e5de.png",
     "static/media/photo5.png": "/WeRemote/static/media/photo5.3eede70cc50886197527.png",
     "static/media/photo4.png": "/WeRemote/static/media/photo4.5318903f3c4d52bb0b1f.png",
@@ -19,10 +19,10 @@
     "static/media/searcher.png": "/WeRemote/static/media/searcher.0a918bf90354d09a43ec.png",
     "index.html": "/WeRemote/index.html",
     "main.7e8aa6cc.css.map": "/WeRemote/static/css/main.7e8aa6cc.css.map",
-    "main.2fb45638.js.map": "/WeRemote/static/js/main.2fb45638.js.map"
+    "main.0cf5c4e5.js.map": "/WeRemote/static/js/main.0cf5c4e5.js.map"
   },
   "entrypoints": [
     "static/css/main.7e8aa6cc.css",
-    "static/js/main.2fb45638.js"
+    "static/js/main.0cf5c4e5.js"
   ]
 }
