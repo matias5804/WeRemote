@@ -12,9 +12,7 @@ const Footer = () => {
         <div className='footer__container'>
             <div className='footer__container__we'>  
                 <div className='footer__container__we__div'>
-                    <Link to="/contacto" className="links">
-                        <h3 className='footer__container__we__div__h3'>Nosotros</h3>
-                    </Link>
+                    <h3 className='footer__container__we__div__h3'>Nosotros</h3>
 
                     <Link to="/contacto" className="links">
                         <li className='footer__container__we__div__li'>Contacto</li>

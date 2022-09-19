@@ -8,16 +8,16 @@ const slides = [
         name:' ~ Maria Montessori ~'
     },
     {
-        eachSlide: 'Me gustaría agradecer al sitio, me ayudó de una manera inimaginable, el psicólogo fue sumamente servicial y acogedor conmigo y me siento mejor conmigo mismo.',
-        name:' ~ Maria Montessori ~'
+        eachSlide: 'Sus artículos me han ayudado mucho durante mi embarazo.',
+        name:' ~ Nayla Arpigiani ~'
     },
     {
-        eachSlide: 'Me gustaría agradecer al sitio, me ayudó de una manera inimaginable, el psicólogo fue sumamente servicial y acogedor conmigo y me siento mejor conmigo mismo.',
-        name:' ~ Maria Montessori ~'
+        eachSlide: 'Me encanta leer la página, hay mucha información de interés y actualidad.',
+        name:' ~ Raul Gomez Bolaños ~'
     },
     {
-        eachSlide: 'Me gustaría agradecer al sitio, me ayudó de una manera inimaginable, el psicólogo fue sumamente servicial y acogedor conmigo y me siento mejor conmigo mismo.',
-        name:' ~ Maria Montessori ~'
+        eachSlide: 'Gracias por compartirnos sus experiencias, me resultaron super útiles.',
+        name:' ~ Julieta Pertéz Ortega ~'
     },
 
 ];

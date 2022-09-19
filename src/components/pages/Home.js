@@ -7,13 +7,11 @@ import Testimony from '../Testimony'
 
 const Home = () => {
   return (
-    <div Home>
+    <div>
         <HeroHome/>
         <GridNews/> 
         <GridNewsBig/> 
         <Testimony/>   
-
-
     </div>
   )
 }
