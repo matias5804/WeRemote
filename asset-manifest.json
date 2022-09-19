@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/WeRemote/static/css/main.7e8aa6cc.css",
+    "main.js": "/WeRemote/static/js/main.2fb45638.js",
+    "static/media/photo3.png": "/WeRemote/static/media/photo3.5eece7adb2d89166e5de.png",
+    "static/media/photo5.png": "/WeRemote/static/media/photo5.3eede70cc50886197527.png",
+    "static/media/photo4.png": "/WeRemote/static/media/photo4.5318903f3c4d52bb0b1f.png",
+    "static/media/photo1.jpg": "/WeRemote/static/media/photo1.c79cc6cfc9840a16b5bd.jpg",
+    "static/media/photo2.jpg": "/WeRemote/static/media/photo2.4435fdb10d30d5f52aab.jpg",
+    "static/media/imgNews1.png": "/WeRemote/static/media/imgNews1.739adc4910a5cb9978c0.png",
+    "static/media/newsReloj.jpg": "/WeRemote/static/media/newsReloj.fad8406e8f1bdd739bf8.jpg",
+    "static/media/newsSmall4.png": "/WeRemote/static/media/newsSmall4.803f191375d31503918e.png",
+    "static/media/newsSmall3.png": "/WeRemote/static/media/newsSmall3.29ec6bec4f603a5b491e.png",
+    "static/media/newsSmall1.png": "/WeRemote/static/media/newsSmall1.2d09bac6bb5e1f91c6d1.png",
+    "static/media/newsSmall2.png": "/WeRemote/static/media/newsSmall2.5aa725fe0aff8638e5a8.png",
+    "static/media/logoBrand.png": "/WeRemote/static/media/logoBrand.798884ade918db8dfa10.png",
+    "static/media/newsNinia.jpg": "/WeRemote/static/media/newsNinia.857dd892d548531420f9.jpg",
+    "static/media/mujerLeyendo.jpg": "/WeRemote/static/media/mujerLeyendo.87ea2700c610cfc8601e.jpg",
+    "static/media/searcher.png": "/WeRemote/static/media/searcher.0a918bf90354d09a43ec.png",
+    "index.html": "/WeRemote/index.html",
+    "main.7e8aa6cc.css.map": "/WeRemote/static/css/main.7e8aa6cc.css.map",
+    "main.2fb45638.js.map": "/WeRemote/static/js/main.2fb45638.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e8aa6cc.css",
+    "static/js/main.2fb45638.js"
+  ]
+}
