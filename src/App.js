@@ -17,6 +17,7 @@ function App() {
         <Routes>
 
           <Route exact path="/*" element={<Home greeting={'HOME'}/>}/>
+          <Route path="/home" element={<Home greeting={'HOME'}/>}/>
           <Route path="/contacto" element={ <Contacto/>}/>
           <Route path="/faq" element={ <FAQ/>}/>
           
